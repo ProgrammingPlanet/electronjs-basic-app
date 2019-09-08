@@ -13,6 +13,8 @@ check that node,npm,electron is installed by
 
 ~$ cd path/to/thisproject
 
+#Run The App
+
 ~$ electron app.js
 
 or
