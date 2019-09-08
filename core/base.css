@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	background: black;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	background: #ffffff;
+	align-self: stretch;
+	-webkit-app-region: drag;
+}
+
+.option {
+	color: #0c0d10;
+	padding: 3px 15px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	-webkit-app-region: no-drag;
+}
+
+#close:hover {
+	background: red;
+}
+
+#minimize:hover,#maxmize:hover {
+	background: #cecece;
+}
+
+header:before {
+    content: 'hi your title go here';
+    color: #dd6464;
+    position: absolute;
+    left: 10px;
+    font-size: 16px;
+    top: 9px;
+}
+
+/* #main {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+} */

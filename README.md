@@ -4,15 +4,11 @@ how to Run
 
 check that node,npm,electron is installed by
 
-~$ node -v
-v10.16.2
+~$ node -v #ouput like v10.16.2
 
-~$ npm -v
-6.9.0
+~$ npm -v #ouput like 6.9.0
 
-~$ electron -v
-v6.0.7
-
+~$ electron -v #ouput like v6.0.7
 
 
 ~$ cd path/to/thisproject
